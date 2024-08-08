@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Adhikari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo" href="index.html">
+                <a href="index.html"><span>Portfolio</span></a>
+            </div>
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <nav>
+                <ul>
+                    <li><a href="#" id="resume-link">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/shruti-adhikari-125aa219b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/shruti.adhikari_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="article">
+            <div class="header">
+                <p><i>Published Date: 2023-12-28</i></p>
+                <h4>Author: Shruti Adhikari</h4>
+                <h2>LULC change Detection and Prediction using CA-Markov</h2>
+            </div>
+            <div class="myproject">
+                <div class="first">
+                    <div class="image">
+                        <img src="Picture1.jpg" alt="Project 1 Image">
+                    </div>
+                    <div class="content">
+                        <h3>Project Summary</h3>
+                        <p>This study aimed to analyze the land use and land cover (LULC) changes in Banepa Valley, Nepal, from 1990 to 2021, and to predict future changes up to 2040 using the CA-Markov model in TERRSET software. The classification and accuracy assessment of satellite images for the years 1990, 2000, 2015, and 2021 were performed using supervised classification with a maximum likelihood classifier (MLC) algorithm in ArcGIS. The overall classification accuracies for the respective years were 81.38%, 80.59%, 86.67%, and 92.68%, with corresponding kappa statistics of 0.767, 0.757, 0.804, and 0.891. These results indicated substantial agreement for the earlier years and almost perfect agreement for the later years, confirming the reliability of the classifications.</p>
+                    </div>
+                </div>
+                <div class="second">
+                    <p>The LULC analysis revealed significant trends over the study period. In 1990, forest and agricultural land dominated the area, covering 50.88% and 41.89% respectively. By 2021, the forest area had decreased significantly to 17.991 km², while agricultural land had increased to 27.559 km². The built-up area expanded dramatically from 0.823 km² in 1990 to 6.962 km² in 2021, reflecting rapid urbanization. Grassland showed a slight increase, while barren land decreased significantly. The main drivers of these changes included population growth, rural-to-urban migration, and socio-economic development.</p>
+                    <p>The CA-Markov model was used to predict the LULC for 2015 and validated against actual 2015 data, showing high accuracy with a kappa index of agreement (KIA) above 75%. Future predictions for 2040 indicated a continued increase in the built-up area to 11.885 km², further reduction in forest land, and slight expansion of agricultural land. The anticipated changes highlight the need for effective land management and urban planning strategies to mitigate the impacts of rapid urbanization and ensure sustainable development.</p>
+                    <p>The study utilized Landsat satellite images and high-resolution Google Earth data for image classification and accuracy assessment. The methodologies employed, including the MLC algorithm and CA-Markov model, demonstrated robust capabilities in analyzing and predicting LULC changes. The findings provide valuable insights for policymakers, urban planners, and environmental agencies to support informed decision-making and sustainable land use planning in Banepa Valley.</p>
+                    <div class="section">
+                        <h3>Key Findings</h3>
+                        <ul>
+                            <li>Significant reduction in forest cover from 27.758 km² (1990) to 17.991 km² (2021).</li>
+                            <li>Dramatic increase in built-up area from 0.823 km² (1990) to 6.962 km² (2021).</li>
+                            <li>Overall increase in agricultural land from 22.856 km² (1990) to 27.559 km² (2021).</li>
+                            <li>Future predictions indicate the built-up area will reach 11.885 km² by 2040.</li>
+                        </ul>
+                    </div> 
+                    <div class="section">
+                        <h3>Methodology</h3>
+                        <ul>
+                            <li>Supervised classification using MLC algorithm in ArcGIS.</li>
+                            <li>Accuracy assessment with kappa statistics.</li>
+                            <li>CA-Markov model in TERRSET for LULC prediction.</li>
+                        </ul>
+                    </div> 
+                    <div class="section">
+                        <h3>Data Source</h3>
+                        <ul>
+                            <li>Landsat Collection-2 Level-2 Thematic Mapper TM 5 for 1990 and 2000.</li>
+                            <li>Landsat Collection-2 Level-2 OLI for 2015 and 2021.</li>
+                            <li>High-resolution images from Google Earth.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="third">
+                    <p>This comprehensive analysis of LULC changes in Banepa Valley serves as a critical resource for understanding past trends, current dynamics, and future scenarios, emphasizing the importance of sustainable land management practices in rapidly urbanizing regions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
